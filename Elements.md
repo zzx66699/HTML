@@ -62,3 +62,24 @@ The text inside is displayed in a fixed-width font (usually Courier), and it pre
 
 ###  2. hr & br
 <img width="1420" alt="image" src="https://github.com/user-attachments/assets/37f3b539-ae60-4467-b9c9-0f42f7032728" />
+
+### 3. Formatting Elements
+```html
+<!-- 加粗 -->
+<strong>This text is important!</strong>
+<b>This text is important!<b>
+
+<!-- 斜体 -->
+<i>This text is italic</i>
+<em>This text is emphasized</em>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+<!-- strike 和 underscore -->
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+
+<p>This is <sub>subscripted</sub> text.</p>
+<p>This is <sup>superscripted</sup> text.</p>
+```
+<img width="619" alt="image" src="https://github.com/user-attachments/assets/3f209862-812c-4e51-9731-724db94cbda6" />

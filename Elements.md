@@ -44,9 +44,9 @@ HTML由element组成，element由自己的attribute
 </html>
 ```
 
-### <pre> element
-The HTML <pre> element defines preformatted text.  
-The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
+### 1. pre 
+it defines preformatted text.  
+The text inside is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
 ```html
 <pre>
   My Bonnie lies over the ocean.
@@ -60,5 +60,5 @@ The text inside a <pre> element is displayed in a fixed-width font (usually Cour
 ```
 <img width="317" alt="image" src="https://github.com/user-attachments/assets/7d7022c2-1c04-45ae-b7eb-09952626f38a" />
 
-###  <hr> HTML Horizontal Rules & <br> HTML Line Breaks
+###  2. hr & br
 <img width="1420" alt="image" src="https://github.com/user-attachments/assets/37f3b539-ae60-4467-b9c9-0f42f7032728" />

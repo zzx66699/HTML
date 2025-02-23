@@ -1,5 +1,5 @@
 ### Attribute
-#### The href Attribute
+#### 1. The href Attribute
 1. 跳转到外部网
 ``` html
 <a href="https://www.google.com">Go to Google</a>
@@ -23,7 +23,7 @@
 <a href="mailto:someone@example.com">Send Email</a>
 ```
 
-#### The src Attribute
+#### 2. The src Attribute
 The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
 There are two ways to specify the URL in the src attribute:
 
@@ -34,7 +34,7 @@ There are two ways to specify the URL in the src attribute:
 If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg".
 If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
 
-#### The title Attribute
+#### 3. The title Attribute
 ```html
 <p title="I'm a tooltip">This is a paragraph.</p>
 ```

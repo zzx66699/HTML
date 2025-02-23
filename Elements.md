@@ -2,7 +2,6 @@
 
 ### A Simple HTML Document
 HTML由element组成，element由自己的attribute
-Always Quote Attribute Values
   
 ``` html
 <!-- a document type declaration, and helps browsers to display web pages correctly. -->
@@ -46,3 +45,20 @@ Always Quote Attribute Values
 
 </html>
 ```
+
+### <pre> element
+The HTML <pre> element defines preformatted text.  
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
+```html
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+```
+<img width="317" alt="image" src="https://github.com/user-attachments/assets/7d7022c2-1c04-45ae-b7eb-09952626f38a" />
+

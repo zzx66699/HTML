@@ -40,3 +40,17 @@ If the URL begins with a slash, it will be relative to the domain. Example: src=
 <p title="I'm a tooltip">This is a paragraph.</p>
 ```
 <img width="201" alt="image" src="https://github.com/user-attachments/assets/aa94c76d-450e-4b84-9730-5177438ba881" />
+
+#### 4. The style Attribute
+改变整个页面的颜色
+```html
+<body style="background-color:powderblue;">
+````
+改变某个段落的
+```html
+<p style="background-color:powderblue;color:red;font-family:courier;font-size:160%;text-align:center;">This is a <br> paragraph with a line break.</p>
+````
+<img width="698" alt="image" src="https://github.com/user-attachments/assets/326d9e10-1f60-4db9-ac89-a6ebc5d73812" />
+
+
+

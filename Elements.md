@@ -35,9 +35,6 @@ HTML由element组成，element由自己的attribute
 
     <hr>
 
-    <!-- <a> 是超链接anchor标签, HTML links are defined with the <a> tag -->
-    <a href="https://www.w3schools.com">This is a link</a>
-
     <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 </body>
 
@@ -83,3 +80,9 @@ The text inside is displayed in a fixed-width font (usually Courier), and it pre
 <p>This is <sup>superscripted</sup> text.</p>
 ```
 <img width="619" alt="image" src="https://github.com/user-attachments/assets/3f209862-812c-4e51-9731-724db94cbda6" />
+
+### 4. a 是超链接anchor标签
+```html
+<!-- HTML links are defined with the <a> tag -->
+    <a href="https://www.w3schools.com">This is a link</a>
+```

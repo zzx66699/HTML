@@ -22,7 +22,6 @@ HTML由element组成，element由自己的attribute
 </head>
 
 <body>
-    <!-- HTML Line Breaks #空一行,或者新起一行 -->
     <br>
 
     <h1 style="font-size:60px;">Heading 1</h1>
@@ -34,7 +33,6 @@ HTML由element组成，element由自己的attribute
     <!-- In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes -->
     <p title="John 'ShotGun' Nelson">
 
-    <!-- HTML Horizontal Rules -->
     <hr>
 
     <!-- <a> 是超链接anchor标签, HTML links are defined with the <a> tag -->
@@ -62,3 +60,5 @@ The text inside a <pre> element is displayed in a fixed-width font (usually Cour
 ```
 <img width="317" alt="image" src="https://github.com/user-attachments/assets/7d7022c2-1c04-45ae-b7eb-09952626f38a" />
 
+###  <hr> HTML Horizontal Rules & <br> HTML Line Breaks
+<img width="1420" alt="image" src="https://github.com/user-attachments/assets/37f3b539-ae60-4467-b9c9-0f42f7032728" />

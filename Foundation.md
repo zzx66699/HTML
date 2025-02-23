@@ -23,7 +23,7 @@ Always Quote Attribute Values
 </head>
 
 <body>
-    <!-- #空一行 -->
+    <!-- HTML Line Breaks #空一行,或者新起一行 -->
     <br>
 
     <h1 style="font-size:60px;">Heading 1</h1>
@@ -34,6 +34,9 @@ Always Quote Attribute Values
     <p>This is a <br> paragraph with a line break.</p>
     <!-- In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes -->
     <p title="John 'ShotGun' Nelson">
+
+    <!-- HTML Horizontal Rules -->
+    <hr>
 
     <!-- <a> 是超链接anchor标签, HTML links are defined with the <a> tag -->
     <a href="https://www.w3schools.com">This is a link</a>

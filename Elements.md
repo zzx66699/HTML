@@ -41,9 +41,9 @@ HTML由element组成，element由自己的attribute
 </html>
 ```
 
-### 1. pre 
+### 1. pre for preformat
 it defines preformatted text.  
-The text inside is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
+The text inside is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks 可以用于展示诗歌
 ```html
 <pre>
   My Bonnie lies over the ocean.
@@ -57,7 +57,7 @@ The text inside is displayed in a fixed-width font (usually Courier), and it pre
 ```
 <img width="317" alt="image" src="https://github.com/user-attachments/assets/7d7022c2-1c04-45ae-b7eb-09952626f38a" />
 
-###  2. hr & br
+###  2. hr for 分割线 & br for 换行
 <img width="1420" alt="image" src="https://github.com/user-attachments/assets/37f3b539-ae60-4467-b9c9-0f42f7032728" />
 
 ### 3. Formatting Elements
@@ -81,8 +81,47 @@ The text inside is displayed in a fixed-width font (usually Courier), and it pre
 ```
 <img width="619" alt="image" src="https://github.com/user-attachments/assets/3f209862-812c-4e51-9731-724db94cbda6" />
 
-### 4. a 是超链接anchor标签
+### 4. a for anchor link 超链接
 ```html
 <!-- HTML links are defined with the <a> tag -->
     <a href="https://www.w3schools.com">This is a link</a>
 ```
+
+### 5. Quotations
+1. blockquote element defines a section that is quoted from another source.  
+Browsers usually indent blockquote elements. 缩进
+<img width="1396" alt="image" src="https://github.com/user-attachments/assets/a443ba21-b9a9-404b-84e9-068965ea7730" />
+
+2. q tag defines a short quotation.  
+Browsers normally insert quotation marks around the quotation. 打引号
+<img width="1327" alt="image" src="https://github.com/user-attachments/assets/2ac1e3ed-e640-4899-a5b7-b20ea9b2e5de" />
+
+### 6. abbr elemenet for abbreviations
+Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
+```html
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+```
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/2f6a5da7-f015-45da-8a6a-79d72df8d55e" />
+
+### 7. address for address
+The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+```html
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+```
+### 8. cite for Work Title
+defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+```html
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+```
+
+### bdo for Bi-Directional Override 换一个方向解读
+```html
+<bdo dir="rtl">This text will be written from right to left</bdo>
+```
+<img width="316" alt="image" src="https://github.com/user-attachments/assets/6f775af7-0727-43fc-94dd-113966ec1023" />

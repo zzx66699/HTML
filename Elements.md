@@ -120,6 +120,41 @@ defines the title of a creative work (e.g. a book, a poem, a song, a movie, a pa
 <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
 ```
 
+### 9. Internal CSS & External CSS
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
 ### bdo for Bi-Directional Override 换一个方向解读
 ```html
 <bdo dir="rtl">This text will be written from right to left</bdo>

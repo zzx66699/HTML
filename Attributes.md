@@ -41,7 +41,7 @@ If the URL begins with a slash, it will be relative to the domain. Example: src=
 ```
 <img width="201" alt="image" src="https://github.com/user-attachments/assets/aa94c76d-450e-4b84-9730-5177438ba881" />
 
-#### 4. The style Attribute
+#### 4. The style Attribute (Inline CSS)
 改变整个页面的颜色
 ```html
 <body style="background-color:powderblue;">

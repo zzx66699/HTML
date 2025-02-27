@@ -86,6 +86,38 @@ The text inside is displayed in a fixed-width font (usually Courier), and it pre
 <!-- HTML links are defined with the <a> tag -->
     <a href="https://www.w3schools.com">This is a link</a>
 ```
+By default, a link will appear like this (in all browsers):  
+An unvisited link is underlined and blue  
+A visited link is underlined and purple  
+An active link is underlined and red  
+You can change the link state colors, by using CSS:
+```html
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+```
 
 ### 5. Quotations
 1. blockquote element defines a section that is quoted from another source.  

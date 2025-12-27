@@ -1,14 +1,25 @@
-| Tag Name        | Meaning / Use                                                 |
-| --------------- | ------------------------------------------------------------- |
+| Tag Name        | Meaning / Use                                                 | Attributes       | 
+| --------------- | ------------------------------------------------------------- | ---------------- | 
+| `<h1>` – `<h6>` | Headings — `<h1>` is the largest, `<h6>` the smallest.        |
+| `<p>`           | Paragraph of text.                                            |
+| `<div>`         | Division or container for grouping elements (block-level).    |
+| `<button>`      | Clickable button.                                             |
+| `<a>`           | Hyperlink (anchor).                                           | href target
+
+| Tag Name        | Meaning / Use                                                 | Attributes       | 
+| --------------- | ------------------------------------------------------------- | ---------------- | 
+| `<img>`         | Image.                                                        | src
+| `<input>`       | Input field (text box, checkbox, etc.).                       | type  placeholder
+
+
 | `<html>`        | The root element of an HTML page.                             |
 | `<head>`        | Contains metadata, links, and scripts (not visible to users). |
 | `<body>`        | Contains all the visible content of the page.                 |
 | `<title>`       | Defines the title shown in the browser tab.                   |
-| `<h1>` – `<h6>` | Headings — `<h1>` is the largest, `<h6>` the smallest.        |
-| `<p>`           | Paragraph of text.                                            |
-| `<a>`           | Hyperlink (anchor).                                           |
-| `<img>`         | Image.                                                        |
-| `<div>`         | Division or container for grouping elements (block-level).    |
+
+
+
+
 | `<span>`        | Inline container for small pieces of text or elements.        |
 | `<ul>`          | Unordered list (with bullet points).                          |
 | `<ol>`          | Ordered list (with numbers).                                  |
@@ -18,8 +29,8 @@
 | `<td>`          | Table cell (data).                                            |
 | `<th>`          | Table header cell.                                            |
 | `<form>`        | Form for user input.                                          |
-| `<input>`       | Input field (text box, checkbox, etc.).                       |
-| `<button>`      | Clickable button.                                             |
+
+
 | `<label>`       | Label for a form element.                                     |
 | `<select>`      | Drop-down list.                                               |
 | `<option>`      | Option inside a `<select>`.                                   |

@@ -1,7 +1,7 @@
-<img width="533" alt="image" src="https://github.com/user-attachments/assets/38f50ca8-27d5-4a13-aa55-643729f6e7e5">
+## Document
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements 
 
-### A Simple HTML Document
-HTML由element组成，element由自己的attribute
+## A Simple HTML Document
   
 ``` html
 <!-- a document type declaration, and helps browsers to display web pages correctly. -->
@@ -41,154 +41,85 @@ HTML由element组成，element由自己的attribute
 </html>
 ```
 
-### 1. pre for preformat
-it defines preformatted text.  
-The text inside is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks 可以用于展示诗歌
-```html
-<pre>
-  My Bonnie lies over the ocean.
-
-  My Bonnie lies over the sea.
-
-  My Bonnie lies over the ocean.
-
-  Oh, bring back my Bonnie to me.
-</pre>
-```
-<img width="317" alt="image" src="https://github.com/user-attachments/assets/7d7022c2-1c04-45ae-b7eb-09952626f38a" />
-
-###  2. hr for 分割线 & br for 换行
-<img width="1420" alt="image" src="https://github.com/user-attachments/assets/37f3b539-ae60-4467-b9c9-0f42f7032728" />
-
-### 3. Formatting Elements
-```html
-<!-- 加粗 -->
-<strong>This text is important!</strong>
-<b>This text is important!<b>
-
-<!-- 斜体 -->
-<i>This text is italic</i>
-<em>This text is emphasized</em>
-
-<p>Do not forget to buy <mark>milk</mark> today.</p>
-
-<!-- strike 和 underscore -->
-<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+## Core tags
+| Tag Name        | Meaning / Use                                                 | Attributes       | 
+| --------------- | ------------------------------------------------------------- | ---------------- | 
+| `<h1>` – `<h6>` | Headings — `<h1>` is the largest, `<h6>` the smallest.        |
+| `<p>`           | Paragraph of text.                                            |
+| `<div>`         | Division or container for grouping elements (block-level).    |
+| `<button>`      | Clickable button.                                             |
+| `<a>`           | Hyperlink (anchor).                                           | href target
+| `<label>`       | Label for a form element.                                     |
 
 
-<p>This is <sub>subscripted</sub> text.</p>
-<p>This is <sup>superscripted</sup> text.</p>
-```
-<img width="619" alt="image" src="https://github.com/user-attachments/assets/3f209862-812c-4e51-9731-724db94cbda6" />
+| Tag Name        | Meaning / Use                                                 | Attributes       | 
+| --------------- | ------------------------------------------------------------- | ---------------- | 
+| `<img>`         | Image.                                                        | src
+| `<input>`       | Input field (text box, checkbox, etc.).                       | type  placeholder
 
-### 4. a for anchor link 超链接
-```html
-<!-- HTML links are defined with the <a> tag -->
-    <a href="https://www.w3schools.com">This is a link</a>
-```
-By default, a link will appear like this (in all browsers):  
-An unvisited link is underlined and blue  
-A visited link is underlined and purple  
-An active link is underlined and red  
-You can change the link state colors, by using CSS:
-```html
-<style>
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
 
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
 
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
+| Tag Name        | Meaning / Use                                                 | Attributes       | 
+| --------------- | ------------------------------------------------------------- | ---------------- | 
+| `<ul>`          | Unordered list (with bullet points).                          |
+| `<ol>`          | Ordered list (with numbers).                                  |
+| `<li>`          | List item (inside `<ul>` or `<ol>`).                          |
 
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-</style>
-```
+| Tag Name        | Meaning / Use                                                 | Attributes       | Usage       | 
+| --------------- | ------------------------------------------------------------- | ---------------- | ----------- | 
+| `<dl>`          | Description list.                                             |                  | metadata 
+| `<dt>`          | Description term (inside `<dl>`).                             |                  |
+| `<dd>`          | Description details (inside `<dl>`).                          |                  |
 
-### 5. Quotations
-1. blockquote element defines a section that is quoted from another source.  
-Browsers usually indent blockquote elements. 缩进
-<img width="1396" alt="image" src="https://github.com/user-attachments/assets/a443ba21-b9a9-404b-84e9-068965ea7730" />
 
-2. q tag defines a short quotation.  
-Browsers normally insert quotation marks around the quotation. 打引号
-<img width="1327" alt="image" src="https://github.com/user-attachments/assets/2ac1e3ed-e640-4899-a5b7-b20ea9b2e5de" />
+| Tag Name        | Meaning / Use                                                 | Attributes       | Usage       | 
+| --------------- | ------------------------------------------------------------- | ---------------- | ----------- | 
+| `<br>`          | Line break.                                                   |
+| `<hr>`          | Horizontal line (divider).                                    |
 
-### 6. abbr elemenet for abbreviations
-Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
-```html
-<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
-```
-<img width="250" alt="image" src="https://github.com/user-attachments/assets/2f6a5da7-f015-45da-8a6a-79d72df8d55e" />
 
-### 7. address for address
-The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
-```html
-<address>
-Written by John Doe.<br>
-Visit us at:<br>
-Example.com<br>
-Box 564, Disneyland<br>
-USA
-</address>
-```
-### 8. cite for Work Title
-defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
-```html
-<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
-```
+## Formatting Elements
 
-### 9. Internal CSS & External CSS
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
-</style>
-</head>
-<body>
+| Tag Name        | Meaning / Use                                                 | Attributes       | Usage       | 
+| --------------- | ------------------------------------------------------------- | ---------------- | ----------- | 
+| `<mark>`        | Highlight in yellow.                                          |                  | 
+| `<strong>`          |                            |                  |
+| `<b>`          |                           |                  |
+| `<i>`          |                           |                  |
+| `<em>`          |                           |                  |
+| `<del>`          | Deleted text.                          |                  |
+| `<ins>`          | Inserted text.                        |                  |
+| `<sub>`          |                        |                  |
+| `<sup>`          |                         |                  |
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
 
-</body>
-</html>
-```
+## Others
+## Elements
+| `<span>`        | Inline container for small pieces of text or elements.        |
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+| `<table>`       | Table container.                                              |
+| `<tr>`          | Table row.                                                    |
+| `<td>`          | Table cell (data).                                            |
+| `<th>`          | Table header cell.                                            |
+| `<form>`        | Form for user input.                                          |
 
-</body>
-</html>
-```
 
-### bdo for Bi-Directional Override 换一个方向解读
-```html
-<bdo dir="rtl">This text will be written from right to left</bdo>
-```
-<img width="316" alt="image" src="https://github.com/user-attachments/assets/6f775af7-0727-43fc-94dd-113966ec1023" />
+
+| `<select>`      | Drop-down list.                                               |
+| `<option>`      | Option inside a `<select>`.                                   |
+| `<textarea>`    | Multi-line text input area.                                   |
+| `<strong>`      | Important text (usually bold).                                |
+| `<em>`          | Emphasized text (usually italic).                             |
+
+| `<nav>`         | Navigation section (menu links).                              |
+| `<header>`      | Header section of a page or article.                          |
+| `<footer>`      | Footer section.                                               |
+| `<section>`     | Logical section or topic block.                               |
+| `<article>`     | A self-contained article (like a blog post).                  |
+| `<main>`        | The main content area.                                        |
+| `<video>`       | Embeds a video.                                               |
+| `<audio>`       | Embeds an audio player.                                       |
+| `<script>`      | JavaScript code.                                              |
+| `<link>`        | Links to external resources (like CSS).                       |
+| `<meta>`        | Metadata (charset, viewport, etc.).                           |

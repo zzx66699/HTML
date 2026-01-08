@@ -7,19 +7,17 @@
 | `<a>`           | Hyperlink (anchor).                                           | href target
 
 ## Form elements
-
-
 | Tag Name        | Meaning / Use                                                 | Attributes       | 
 | --------------- | ------------------------------------------------------------- | ---------------- | 
 | `<label>`       | Label for a form element.                                     |
 | `<button>`      | Clickable button.                                             |
-
+| `<input>`       | Input field (text box, checkbox, etc.).                       | type  placeholder
 
 
 | Tag Name        | Meaning / Use                                                 | Attributes       | 
 | --------------- | ------------------------------------------------------------- | ---------------- | 
 | `<img>`         | Image.                                                        | src
-| `<input>`       | Input field (text box, checkbox, etc.).                       | type  placeholder
+
 
 
 

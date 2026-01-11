@@ -1,31 +1,67 @@
 ## Core tags
 | Tag Name        | Meaning / Use                                                 | Attributes       | 
 | --------------- | ------------------------------------------------------------- | ---------------- | 
-| `<h1>` – `<h6>` | Headings — `<h1>` is the largest, `<h6>` the smallest.        |
 | `<p>`           | Paragraph of text.                                            |
 | `<div>`         | Division or container for grouping elements (block-level).    |
 | `<a>`           | Hyperlink (anchor).                                           | href target
+| `<img>`         | Image.                                                        | src
 
-## Form elements
+## Headings
+- Only use one `h1` per page. No more, no less.  
+- Heading numbers should be consecutive. No skip.   
+- Headings always introduce new content sections. A heading for some content should never be a `<p>` or a `<div>`.   
+
+| Tag Name        | Meaning / Use                                                 | Attributes       | 
+| --------------- | ------------------------------------------------------------- | ---------------- | 
+| `<h1>` – `<h6>` | Headings — `<h1>` is the largest, `<h6>` the smallest.        |
+
+## Landmark regions
+| Tag Name        | Meaning / Use                                                 | Attributes       | 
+| --------------- | ------------------------------------------------------------- | ---------------- | 
+| `<nav>`         | Navigation section (menu links).                              |
+| `<header>`      | Header section of a page or article.                          |
+| `<main>`        | The main content area.                                        |
+| `<section>`     | Logical section or topic block.                               |
+| `<footer>`      | Footer section.                                               |
+
+## Forms
 | Tag Name        | Meaning / Use                                                 | Attributes       | 
 | --------------- | ------------------------------------------------------------- | ---------------- | 
 | `<label>`       | Label for a form element.                                     |
 | `<button>`      | Clickable button.                                             |
 | `<input>`       | Input field (text box, checkbox, etc.).                       | type  placeholder
 
+### Accessibility
+always add a label and placeholder for the input form
+```html
+<!--   associate a label  -->
+<label for="city">City</label>
+<!--                                              placeholder -->
+<select class="city-select" id="city" type="text" placeholder="London">
+```
 
-| Tag Name        | Meaning / Use                                                 | Attributes       | 
-| --------------- | ------------------------------------------------------------- | ---------------- | 
-| `<img>`         | Image.                                                        | src
+### Radio buttons
+Use `<fieldset>` and `<legend>` tags to group the set and provide the context for screen reader users
+```html
+<fieldset class="radio-container">
+    <legend>Do you have cats?</legend>
+    <label for="yes">Yes</label>
+    <input class="contact-radio" id="yes" type="radio" name="cats" />
+    <label for="no">No</label>
+    <input class="contact-radio" id="no" type="radio" name="cats" />
+</fieldset>
+```
 
-
-
-
+## Connected consecutive items
 | Tag Name        | Meaning / Use                                                 | Attributes       | 
 | --------------- | ------------------------------------------------------------- | ---------------- | 
 | `<ul>`          | Unordered list (with bullet points).                          |
 | `<ol>`          | Ordered list (with numbers).                                  |
 | `<li>`          | List item (inside `<ul>` or `<ol>`).                          |
+
+
+
+
 
 | Tag Name        | Meaning / Use                                                 | Attributes       | Usage       | 
 | --------------- | ------------------------------------------------------------- | ---------------- | ----------- | 
@@ -74,14 +110,9 @@
 | `<strong>`      | Important text (usually bold).                                |
 | `<em>`          | Emphasized text (usually italic).                             |
 
-| `<nav>`         | Navigation section (menu links).                              |
-| `<header>`      | Header section of a page or article.                          |
-| `<footer>`      | Footer section.                                               |
-| `<section>`     | Logical section or topic block.                               |
-| `<article>`     | A self-contained article (like a blog post).                  |
-| `<main>`        | The main content area.                                        |
+
 | `<video>`       | Embeds a video.                                               |
 | `<audio>`       | Embeds an audio player.                                       |
-| `<script>`      | JavaScript code.                                              |
 
 | `<meta>`        | Metadata (charset, viewport, etc.).                           |
+| `<article>`     | A self-contained article (like a blog post).                  |

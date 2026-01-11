@@ -1,27 +1,13 @@
-### Attribute
-Please Always Quote Attribute Values
-#### 1. The href Attribute
-1. 跳转到外部网
-``` html
-<a href="https://www.google.com">Go to Google</a>
-```
-2. 跳转到同一个网站的内部页面
-```html
-<!-- 📌 点击后会跳转到 about.html 页面（相对路径） -->
-<a href="about.html">About Us</a>
-```
-3. 跳转到页面的某个部分（锚点）
-```html
-<!-- 点击后会跳转到 ID 为 section2 的部分（适用于单页面跳转） -->
-<a href="#section2">Go to Section 2</a>
-```
-4. 让链接在新标签页打开
-```html
-<a href="https://www.example.com" target="_blank">Open in new tab</a>
-```
-5. 创建一个邮件链接
-```html
-<a href="mailto:someone@example.com">Send Email</a>
+# Attribute
+Always Quote Attribute Values
+
+## font-size
+Change all font-size properties from px to rem, letting the user to change the default page sizing by zooming in and zooming out. 
+1rem = 16px
+```css
+p {
+      font-size: 1rem;
+}
 ```
 
 #### 2. The src Attribute
@@ -39,18 +25,29 @@ If the URL begins with a slash, it will be relative to the domain. Example: src=
 ```html
 <p title="I'm a tooltip">This is a paragraph.</p>
 ```
-<img width="201" alt="image" src="https://github.com/user-attachments/assets/aa94c76d-450e-4b84-9730-5177438ba881" />
 
-#### 4. The style Attribute (Inline CSS)
-改变整个页面的颜色
+### Create a Bookmark in HTML
+Use the id attribute (id="value") to define bookmarks in a page 这个id是给需要跳转的部分命名  
+Use the href attribute (href="#value") to link to the bookmark 这个是跳转到那个地方去
 ```html
-<body style="background-color:powderblue;">
-````
-改变某个段落的
-```html
-<p style="background-color:powderblue;color:red;font-family:courier;font-size:160%;text-align:center;">This is a <br> paragraph with a line break.</p>
-````
-<img width="698" alt="image" src="https://github.com/user-attachments/assets/326d9e10-1f60-4db9-ac89-a6ebc5d73812" />
+<!DOCTYPE html>
+<html>
+<body>
+  <p><a href="#C4">Jump to Chapter 4</a></p>
 
+  <h2>Chapter 1</h2>
+  <p>This chapter explains ba bla bla</p>
+
+  <h2>Chapter 2</h2>
+  <p>This chapter explains ba bla bla</p>
+
+  <h2>Chapter 3</h2>
+  <p>This chapter explains ba bla bla</p>
+
+  <h2 id="C4">Chapter 4</h2>
+  <p>This chapter explains ba bla bla</p>
+</body>
+</html>
+```
 
 

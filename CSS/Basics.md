@@ -1,19 +1,6 @@
 # Basics
-## Specificity
-Many developer don't use id for css.
-- Use element selector for general rules
-- Use class selector for specificity
 
-Use compound selector for more specificity, but `try not to use it too much`. Add all the points to calculate the points of compound selector:
-- element: 1 point
-- class: 10 points
-- id: 100 points  
-
-
-
-
-
-## organisation with comment
+## Organisation with comment
 ```css
 body{
     font-size: 16px;
@@ -69,3 +56,8 @@ section{
     width:100%;
 }
 ```
+
+## Links and buttons
+- links are for navigation.  
+- Buttons are for interaction.
+You can style the link like a button.

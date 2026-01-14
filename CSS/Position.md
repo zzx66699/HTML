@@ -15,6 +15,15 @@ the absolute element is `above` the other elements
     left: 0;
 }
 ```
+We can also use percentage instead of pixel
+```css
+buttons {
+    position: absolute;
+    /* make the button center of the flex, regardless of other elements in the flex box. */
+    left: 50%;
+    transform: translateX(-50%);
+}
+```
 
 ## Position: fixed
 It is always obscuring everything until the user get rid of it.  

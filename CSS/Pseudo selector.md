@@ -10,15 +10,13 @@ a:visited {
   color: #00FF00;
 }
 
-/* mouse over link */
-a:hover {
+/* mouse over link */ 
+a:hover, 
+/* currently selected by the tab key*/
+a:focus {
   color: #FF00FF;
 }
 
-/* currently selected by the tab key*/
-a:focus {
-
-}
 
 /* selected link */
 a:active {

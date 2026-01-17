@@ -24,32 +24,7 @@
 | `<section>`     | Logical section or topic block.                               |
 | `<footer>`      | Footer section.                                               |
 
-## Forms
-| Tag Name        | Meaning / Use                                                 | Attributes       | 
-| --------------- | ------------------------------------------------------------- | ---------------- | 
-| `<label>`       | Label for a form element.                                     |
-| `<button>`      | Clickable button.                                             |
-| `<input>`       | Input field (text box, checkbox, etc.).                       | type  placeholder
 
-### Accessibility
-always add a label and placeholder for the input form
-```html
-<!--   associate a label  -->
-<label for="city">City</label>
-<!--                                              placeholder -->
-<select class="city-select" id="city" type="text" placeholder="London">
-```
-
-### Radio buttons
-Use `<fieldset>` and `<legend>` tags to group the set and provide the context for screen reader users
-```html
-<fieldset class="radio-container">
-    <legend>Do you have cats?</legend>
-    <label for="yes">Yes</label>
-    <input class="contact-radio" id="yes" type="radio" name="cats" />
-    <label for="no">No</label>
-    <input class="contact-radio" id="no" type="radio" name="cats" />
-</fieldset>
 ```
 
 ## Connected consecutive items

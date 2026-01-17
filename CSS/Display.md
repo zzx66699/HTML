@@ -67,6 +67,13 @@ button {
 }
 ```
 
+## flex-direction
+```css
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+```
 
 
 

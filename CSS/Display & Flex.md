@@ -56,7 +56,7 @@ button {
 }
 ```
 
-## flex-wrap
+## flex-wrap - create a grip
 ```css
 .thumbnails {
     display: flex;
@@ -65,9 +65,42 @@ button {
     max-width: 560px;
     margin: 50px auto;
 }
+
+.flex-item {
+    /* min width of each flex item */
+    flex-basis: 200px;
+    /* it will take up all the remaining space in the row */
+    flex-grow: 1;
+}
+/* equal to */
+.flex-item {
+    flex-basis: 1 200px;
+}
 ```
 
-## flex-direction
+Example
+```css
+/*
+    Wrap the feature-item divs with flexbox
+    1. Each .feature-item should grow from an initial main size of 220px
+    2. Allow the items inside .section-two-image-container to
+       wrap onto multiple lines
+    3. Apply a gap between each .feature-item
+*/
+
+.section-two-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.feature-item {
+    flex: 1 220px; 
+}
+```
+
+## reorder the flex items
+### flex-direction
 ```css
 .container{
     display: flex;
@@ -75,6 +108,48 @@ button {
 }
 ```
 
+### order
+With order property, we can change the visual orders of the flex items. The default order value is 0.   
+
+- -1: display item first  
+- 1: display item last
+```css
+.coat {
+    order: 1;
+}
+
+.dish {
+    order: 2;
+}
+
+.tube {
+    order: 3;
+}
+
+
+```
+We want the screen readers to read the h1 and p first, but in visual, we want to show the top text first. 
+```html
+<section class="intro">
+    <h1>Turn <strong>your picture</strong> into an iconic <strong>Scrimba avatar</strong></h1>
+    <span class="beta-text">Currently in Beta</span>
+    <p class="top-text">Powered by Scrimba</p>
+</section>
+```
+```css
+.intro { 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.top-text {
+    order: -1;
+    /* it will make the top border of .top-text should match the width of the text */
+    margin: 0 auto;
+}
+
+```
 
 
 

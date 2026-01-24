@@ -1,4 +1,4 @@
-# Postion: 
+# Postion
 
 ## Position: relative and absolute
 the absolute element is `above` the other elements

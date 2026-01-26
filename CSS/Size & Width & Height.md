@@ -129,7 +129,7 @@ use px
 ## viewport units
 - 1vh is 1% of the viewport height.  
 - 1vw is 1% of the viewport width.  
-
+It helps create `fluid` text and content container. 
 
 ```css
 nav {

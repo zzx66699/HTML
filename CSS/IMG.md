@@ -22,3 +22,14 @@ make the `container div and everything inside` treated as an image.
     background-size: cover;
 }
 ```
+
+## object-fit
+It sets how the content of the image should be resized to fit its container.
+```css
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+```
